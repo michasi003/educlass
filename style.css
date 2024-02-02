@@ -1,3 +1,6 @@
+/* CSS Reset */
+@import url('./reset.css');
+
 /* Font Setup */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
 
@@ -59,4 +62,19 @@ header {
     grid-template-columns: repeat(3, 1fr);
     padding: 5rem;
     background-color:var(--hero-bg-color);
+    
+}
+
+.hero__top h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.hero__content {
+    display: grid;
+    gap: 2rem;
+}
+
+.hero__image{
+    grid-column: span 2 / span 2;
 }
